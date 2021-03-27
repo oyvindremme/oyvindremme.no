@@ -3,32 +3,12 @@ import { Link } from 'gatsby'
 
 // Sections
 import FrontPageHeader from '../components/sections/front-page/FrontPageHeader';
+import FrontPageFeatures from '../components/sections/front-page/FrontPageFeatures';
 
 const Home = () => (
   <>
     <FrontPageHeader />
-    <section className="container py-5 my-5 text-center">
-      <div className="mb-5">
-        <h2 className="text-uppercase">
-          <span className="text-primary">Hva</span> jeg gjør
-        </h2>
-        <p>
-          Jeg spesialiserer meg på å bygge og optimalisere hjemmesider for små bedrifter. Hver del av hjemmesiden er skreddersydd og håndtert av meg, for å sikre god ytelse og gode rangeringer på Google, noe som vil hjelpe deg med å potensielt skaffe deg flere kunder. <Link to="/tjenester"><a>LÆR MER</a></Link>
-        </p>
-      </div>
-      <div className="row">
-        <div className="col-lg-4">
-          <div className="mx-auto mb-4 rounded-circle bg-dark text-primary d-flex justify-content-center align-items-center p-5 fs-1" style={{
-            "width": 55,
-            "height": 55
-          }}>
-            <i class="bi bi-display"></i>
-          </div>
-          <h3 className="fs-4">Laget for håndholdte enheter</h3>
-          <p>Jeg begynner med å bygge hjemmesiden for håndholdte enheter først, deretter legger jeg det opp for nettbrett og deretter større skjermer.</p>
-        </div>
-      </div>
-    </section>
+    <FrontPageFeatures />
     <section className="container py-5 mb-5 text-center">
       <div className="row">
         <div className="col-lg-5">
@@ -67,11 +47,29 @@ const Home = () => (
         </h2>
       </div>
       <div className="row text-start">
-        <div className="border border-5 border-end-0 border-primary border-start-0 border-top-0 col-lg-4 p-5 rounded-3 shadow">
-          <img className="img-fluid mb-3" src="https://www.oyvindremme.no/wp-content/uploads/2021/01/plastfritthav.no_-1_macbookgrey_front-e1611226484700.png" />
-          <h3>Plastfritt Hav</h3>
-          <p>Plastfritt Hav er en miljøorganisasjon med kjærlighet for havet. De samarbeider med skoleklasser, barnehager og bedrifter for å rydde plast fra havet.</p>
-          <a className="btn btn-primary">Se hjemmesiden</a>
+        <div className="col-lg-4">
+          <div className="border border-5 border-end-0 border-primary border-start-0 border-top-0  p-5 rounded-3 shadow">
+            <img className="img-fluid mb-3" src="https://www.oyvindremme.no/wp-content/uploads/2021/01/plastfritthav.no_-1_macbookgrey_front-e1611226484700.png" />
+            <h3>Plastfritt Hav</h3>
+            <p>Plastfritt Hav er en miljøorganisasjon med kjærlighet for havet. De samarbeider med skoleklasser, barnehager og bedrifter for å rydde plast fra havet.</p>
+            <a className="btn btn-primary">Se hjemmesiden</a>
+          </div>
+        </div>
+        <div className="col-lg-4">
+          <div className="border border-5 border-end-0 border-primary border-start-0 border-top-0  p-5 rounded-3 shadow">
+            <img className="img-fluid mb-3" src="https://www.oyvindremme.no/wp-content/uploads/2021/01/plastfritthav.no_-1_macbookgrey_front-e1611226484700.png" />
+            <h3>Plastfritt Hav</h3>
+            <p>Plastfritt Hav er en miljøorganisasjon med kjærlighet for havet. De samarbeider med skoleklasser, barnehager og bedrifter for å rydde plast fra havet.</p>
+            <a className="btn btn-primary">Se hjemmesiden</a>
+          </div>
+        </div>
+        <div className="col-lg-4">
+          <div className="border border-5 border-end-0 border-primary border-start-0 border-top-0  p-5 rounded-3 shadow">
+            <img className="img-fluid mb-3" src="https://www.oyvindremme.no/wp-content/uploads/2021/01/plastfritthav.no_-1_macbookgrey_front-e1611226484700.png" />
+            <h3>Plastfritt Hav</h3>
+            <p>Plastfritt Hav er en miljøorganisasjon med kjærlighet for havet. De samarbeider med skoleklasser, barnehager og bedrifter for å rydde plast fra havet.</p>
+            <a className="btn btn-primary">Se hjemmesiden</a>
+          </div>
         </div>
       </div>
     </section>
@@ -98,79 +96,85 @@ const Home = () => (
     </section>
     <section className="container py-5 mb-5 text-center">
       <div className="row">
-        <div className="col-lg-4 p-0 border">
-          <div className="bg-transparent fs-4 p-4">
-            Standard + Blogging
-          </div>
-          <div className="p-4">
-            <p className="text-secondary fs-4 mb-1 text-uppercase">Startpris</p>
-            <h3 className="fs-1 text-primary fw-bold mb-4">
-              3000,- <span className="fs-3 fw-normal">/mnd</span>
-            </h3>
-            <ul className="list-group list-group-flush text-start mb-4">
-              <li className="align-items-center justify-content-center d-flex list-group-item">
-                Innlegg på rundt 1000 ord
-              </li>
-              <li className="align-items-center justify-content-center d-flex list-group-item">
-                Ett innlegg per måned
-              </li>
-              <li className="align-items-center justify-content-center d-flex list-group-item">
-                1500,- per ekstra innlegg
-              </li>
-            </ul>
-            <Link to="/kontakt" className="btn btn-lg btn-primary">
-              Ta kontakt
-            </Link>
-          </div>
-        </div>
-        <div className="col-lg-4 p-0 border">
-          <div className="bg-transparent fs-4 p-4">
-            Standard + Blogging
-          </div>
-          <div className="p-4">
-            <p className="text-secondary fs-4 mb-1 text-uppercase">Startpris</p>
-            <h3 className="fs-1 text-primary fw-bold mb-4">
-              3000,- <span className="fs-3 fw-normal">/mnd</span>
-            </h3>
-            <ul className="list-group list-group-flush text-start mb-4">
-              <li className="align-items-center justify-content-center d-flex list-group-item">
-                Innlegg på rundt 1000 ord
-              </li>
-              <li className="align-items-center justify-content-center d-flex list-group-item">
-                Ett innlegg per måned
-              </li>
-              <li className="align-items-center justify-content-center d-flex list-group-item">
-                1500,- per ekstra innlegg
-              </li>
-            </ul>
-            <Link to="/kontakt" className="btn btn-lg btn-primary">
-              Ta kontakt
-            </Link>
+        <div className="col-lg-4">
+          <div className="p-0 border">
+            <div className="bg-secondary text-light fs-4 p-4">
+              Standard + Blogging
+            </div>
+            <div className="p-4">
+              <p className="text-secondary fs-4 mb-1 text-uppercase">Startpris</p>
+              <h3 className="fs-1 text-primary fw-bold mb-4">
+                3000,- <span className="fs-3 fw-normal">/mnd</span>
+              </h3>
+              <ul className="list-group list-group-flush text-start mb-4">
+                <li className="align-items-center justify-content-center d-flex list-group-item">
+                  Innlegg på rundt 1000 ord
+                </li>
+                <li className="align-items-center justify-content-center d-flex list-group-item">
+                  Ett innlegg per måned
+                </li>
+                <li className="align-items-center justify-content-center d-flex list-group-item">
+                  1500,- per ekstra innlegg
+                </li>
+              </ul>
+              <Link to="/kontakt" className="btn btn-lg btn-primary">
+                Ta kontakt
+              </Link>
+            </div>
           </div>
         </div>
-        <div className="col-lg-4 p-0 border">
-          <div className="bg-transparent fs-4 p-4">
-            Standard + Blogging
+        <div className="col-lg-4">
+          <div className="p-0 border">
+            <div className="bg-primary text-light fs-4 p-4">
+              Standard
+            </div>
+            <div className="p-4">
+              <p className="text-secondary fs-4 mb-1 text-uppercase">5 sider</p>
+              <h3 className="fs-1 text-primary fw-bold mb-4">
+                1500,- <span className="fs-3 fw-normal">/mnd</span>
+              </h3>
+              <ul className="list-group list-group-flush text-start mb-4">
+                <li className="align-items-center justify-content-center d-flex list-group-item">
+                  Ubegrenset redigering
+                </li>
+                <li className="align-items-center justify-content-center d-flex list-group-item">
+                  Inkludert webhosting / webhotell
+                </li>
+                <li className="align-items-center justify-content-center d-flex list-group-item">
+                  Kundestøtte 24 timer i døgnet
+                </li>
+              </ul>
+              <Link to="/kontakt" className="btn btn-lg btn-primary">
+                Ta kontakt
+              </Link>
+            </div>
           </div>
-          <div className="p-4">
-            <p className="text-secondary fs-4 mb-1 text-uppercase">Startpris</p>
-            <h3 className="fs-1 text-primary fw-bold mb-4">
-              3000,- <span className="fs-3 fw-normal">/mnd</span>
-            </h3>
-            <ul className="list-group list-group-flush text-start mb-4">
-              <li className="align-items-center justify-content-center d-flex list-group-item">
-                Innlegg på rundt 1000 ord
-              </li>
-              <li className="align-items-center justify-content-center d-flex list-group-item">
-                Ett innlegg per måned
-              </li>
-              <li className="align-items-center justify-content-center d-flex list-group-item">
-                1500,- per ekstra innlegg
-              </li>
-            </ul>
-            <Link to="/kontakt" className="btn btn-lg btn-primary">
-              Ta kontakt
-            </Link>
+        </div>
+        <div className="col-lg-4">
+          <div className="p-0 border">
+            <div className="bg-secondary text-light fs-4 p-4">
+              Logo
+            </div>
+            <div className="p-4">
+              <p className="text-secondary fs-4 mb-1 text-uppercase">Inkludert!</p>
+              <h3 className="fs-1 text-primary fw-bold mb-4">
+                0,- <span className="fs-3 fw-normal">/mnd</span>
+              </h3>
+              <ul className="list-group list-group-flush text-start mb-4">
+                <li className="align-items-center justify-content-center d-flex list-group-item">
+                  Innlegg på rundt 1000 ord
+                </li>
+                <li className="align-items-center justify-content-center d-flex list-group-item">
+                  Ett innlegg per måned
+                </li>
+                <li className="align-items-center justify-content-center d-flex list-group-item">
+                  1500,- per ekstra innlegg
+                </li>
+              </ul>
+              <Link to="/kontakt" className="btn btn-lg btn-primary">
+                Ta kontakt
+              </Link>
+            </div>
           </div>
         </div>
       </div>
