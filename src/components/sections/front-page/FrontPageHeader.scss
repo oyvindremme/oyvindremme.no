@@ -1,0 +1,16 @@
+.front-page-header {
+    background: linear-gradient($primary, $secondary);
+    &__content {
+        h1 {
+            font-size: 62px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 10px 6px;
+        }
+    }
+}
