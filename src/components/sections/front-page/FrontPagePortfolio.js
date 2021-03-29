@@ -21,7 +21,7 @@ const PortfolioItem = props => (
 )
 
 const FrontPagePortfolio = () => (
-    <section className="container py-5 mb-5 text-center">
+    <section id="portefolje" className="container py-5 mb-5 text-center">
       <div className="mb-5">
         <h2 className="text-uppercase fw-bold">
           <span className="text-primary">Min</span> portefølje
