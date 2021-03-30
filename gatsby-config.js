@@ -18,5 +18,16 @@ module.exports = {
                 path: `${__dirname}/src/images/`,
             },
         },
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `oyvindremme-gatsby`,
+                short_name: `oyvindremme`,
+                start_url: `/`,
+                background_color: `#ec6a11`,
+                theme_color: `#ec6a11`,
+                icon: `src/images/logo/icon-full_colors.png`
+            }
+        }
     ]
 }

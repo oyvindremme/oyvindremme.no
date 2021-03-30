@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Pricing = () => (
     <section className="container py-5 mb-5 text-center">
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
           <div className="p-0 shadow">
             <div className="bg-secondary text-light fs-4 p-4">
               Standard + Blogging
@@ -15,13 +15,13 @@ const Pricing = () => (
                 3000,- <span className="fs-3 fw-normal">/mnd</span>
               </h3>
               <ul className="list-group list-group-flush text-start mb-4">
-                <li className="align-items-center justify-content-center d-flex list-group-item">
+                <li className="text-center align-items-center justify-content-center d-flex list-group-item">
                   Innlegg på rundt 1000 ord
                 </li>
-                <li className="align-items-center justify-content-center d-flex list-group-item">
+                <li className="text-center align-items-center justify-content-center d-flex list-group-item">
                   Ett innlegg per måned
                 </li>
-                <li className="align-items-center justify-content-center d-flex list-group-item">
+                <li className="text-center align-items-center justify-content-center d-flex list-group-item">
                   1500,- per ekstra innlegg
                 </li>
               </ul>
@@ -31,7 +31,7 @@ const Pricing = () => (
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
           <div className="p-0 shadow">
             <div className="bg-primary text-light fs-4 p-4">
               Standard
@@ -42,13 +42,13 @@ const Pricing = () => (
                 1500,- <span className="fs-3 fw-normal">/mnd</span>
               </h3>
               <ul className="list-group list-group-flush text-start mb-4">
-                <li className="align-items-center justify-content-center d-flex list-group-item">
+                <li className="text-center align-items-center justify-content-center d-flex list-group-item">
                   Ubegrenset redigering
                 </li>
-                <li className="align-items-center justify-content-center d-flex list-group-item">
+                <li className="text-center align-items-center justify-content-center d-flex list-group-item">
                   Inkludert webhosting / webhotell
                 </li>
-                <li className="align-items-center justify-content-center d-flex list-group-item">
+                <li className="text-center align-items-center justify-content-center d-flex list-group-item">
                   Kundestøtte 24 timer i døgnet
                 </li>
               </ul>
@@ -58,7 +58,7 @@ const Pricing = () => (
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
           <div className="p-0 shadow">
             <div className="bg-secondary text-light fs-4 p-4">
               Logo
@@ -69,13 +69,13 @@ const Pricing = () => (
                 0,-
               </h3>
               <ul className="list-group list-group-flush text-start mb-4">
-                <li className="align-items-center justify-content-center d-flex list-group-item">
+                <li className="text-center align-items-center justify-content-center d-flex list-group-item">
                   To revisjoner
                 </li>
-                <li className="align-items-center justify-content-center d-flex list-group-item">
+                <li className="text-center align-items-center justify-content-center d-flex list-group-item">
                   Alle filformater
                 </li>
-                <li className="align-items-center justify-content-center d-flex list-group-item">
+                <li className="text-center align-items-center justify-content-center d-flex list-group-item">
                   GRATIS med abonnement
                 </li>
               </ul>

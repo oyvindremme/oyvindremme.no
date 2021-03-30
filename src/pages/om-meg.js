@@ -21,17 +21,17 @@ const OmMeg = () => (
                     />
                 </div>
                 <div className="col-lg-7">
-                    <span className="text-primary fw-light">
+                    <span className="text-primary">
                         Webdesigner Øyvind Remme
                     </span>
                     <h2>
                         Gir små bedrifter "the big business treatment"
                     </h2>
                     <p>
-                        Jeg heter Øyvind Remme, og er selvstendig næringsdrivende webdesigner. Jeg ble interessert i å lage hjemmesider etter å ha bygget en for et familiemedlem. Jeg hadde et sterkt ønske om å kunne være tilgjengelig hjemme, og se barnet mitt vokse, mens jeg kunne jobbe i umiddelbar nærhet. Jeg har utdanning og bakgrunn i webdesign, og tilbyr mine tjenester for små bedrifter som er ute etter å øke inntektene sine.
+                        Jeg heter Øyvind Remme, og er selvstendig webutvikler. Jeg ble interessert i å lage hjemmesider etter å ha bygget en for et familiemedlem, og hadde et sterkt ønske om å kunne være tilgjengelig hjemme, og se barnet mitt vokse, mens jeg kunne jobbe i umiddelbar nærhet. Jeg har utdanning i frontend-utvikling, og tilbyr mine tjenester for små bedrifter som er ute etter å øke inntektene sine.
                     </p>
                     <p>
-                        Det jeg fant ut etterhvert var at mange små bedrifter ikke hadde råd til å betale mange tusenere av kroner for en hjemmeside. Og de som hadde råd ble som oftest lurt, og endte opp med et forderdelig resultat. De var frustrerte - enten hadde de ikke råd til en hjemmeside, og om de gjorde det, visste de ikke hvem de kunne stole på for å lage noe de var fornøyde med. Med det endre jeg forretningsmodellen min for å tilpasse behovet. Det var sånn jeg kom på at jeg skulle tilby 0 kroner i etablering og 1500 kroner per måned. Det er rett og slett mer håndterbart for små bedrifter.
+                        Det jeg fant ut etterhvert var at mange små bedrifter ikke hadde råd til å betale mange tusener av kroner for en hjemmeside. Og de som hadde råd ble som oftest lurt, og endte opp med et forderdelig resultat. De var frustrerte - enten hadde de ikke råd til en hjemmeside, og om de gjorde det, visste de ikke hvem de kunne stole på for å lage noe de var fornøyde med. Med det endre jeg forretningsmodellen min for å tilpasse behovet. Det var sånn jeg kom på at jeg skulle tilby 0 kroner i etablering og 1500 kroner per måned. Det er rett og slett mer håndterbart for små bedrifter.
                     </p>
                 </div>
             </div>

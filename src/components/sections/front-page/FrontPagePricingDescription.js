@@ -1,15 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-const PricingJustification = props => (
-    <div className="col-md-6">
-        <i className="bi bi-hand-thumbs-up fs-1 text-primary"></i>
-        <h3 className="h4">{props.name}</h3>
-        <p>
-            {props.description}
-        </p>
-    </div>
-)
+import IconBox from "../misc/IconBox"
 
 const justifications = [
     {
@@ -39,7 +31,7 @@ const justifications = [
 ]
 
 const FrontPagePricingDescription = () => (
-    <section className="container py-5 mb-5 text-center">
+    <section className="container p-3 p-md-5 mb-5 text-center">
       <div className="row">
         <div className="col-md-5">
           <img className="img-fluid" src="https://www.oyvindremme.no/wp-content/uploads/2021/01/undraw_investing_7u74.png" />
@@ -58,7 +50,9 @@ const FrontPagePricingDescription = () => (
           </div>
           <div className="row">
             {justifications.map(justification => (
-                <PricingJustification
+                <IconBox
+                    colWidth="6"
+                    iconName="bi-hand-thumbs-up"
                     name={justification.name}
                     description={justification.description}
                 />

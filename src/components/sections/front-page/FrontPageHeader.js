@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 const FrontPageHeader = () => (
     <>
-        <section id="front-page-header" className="align-items-center container-fluid d-flex py-5 text-white min-vh-100" style={{
+        <section id="front-page-header" className="align-items-center container-fluid d-flex p-3 p-md-5 text-white min-vh-100" style={{
             "background": "linear-gradient(#ec6a11, #d13c3c)"
         }}>
             <div className="container">

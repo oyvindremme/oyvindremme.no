@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Feature = props => (
-    <div className="col-md-4">
+    <div className="col-md-4 mb-4">
         <div className="mx-auto mb-4 rounded-circle bg-primary text-light d-flex justify-content-center align-items-center" style={{
         "width": 90,
         "height": 90
@@ -37,7 +37,7 @@ const features = [
 ]
 
 const FrontPageFeatures = () => (
-    <section className="container py-5 my-5 text-center">
+    <section className="container p-3 p-md-5 my-5 text-center">
       <div className="mb-7">
         <h2 className="text-uppercase fw-bold">
           <span className="text-primary">Hva</span> jeg gjør

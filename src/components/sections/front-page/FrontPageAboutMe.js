@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const FrontPageAboutMe = () => (
-    <section className="container py-5 mb-5 text-center">
+    <section className="container p-3 p-md-5 mb-5 text-center">
       <div className="mb-7">
         <h2 className="text-uppercase fw-bold">
           <span className="text-primary">Hvem</span> jeg er

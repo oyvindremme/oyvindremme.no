@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Layout = props => (
     <>
+        {console.log(window)}
         <nav className="navbar navbar-expand-lg navbar-light bg-light shadow">
             <div className="container">
                 <Link className="navbar-brand" to="/">

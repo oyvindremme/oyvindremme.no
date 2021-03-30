@@ -4,8 +4,8 @@ import { StaticImage } from "gatsby-plugin-image"
 // TODO: Fix image fetching
 
 const PortfolioItem = props => (
-    <div className="col-md-4">
-        <div className="border border-5 border-end-0 border-primary border-start-0 border-top-0  p-5 rounded-3 shadow position-relative" style={{
+    <div className="col-md-4 mb-4">
+        <div className="border border-5 border-end-0 border-primary border-start-0 border-top-0  p-3 p-md-5 rounded-3 shadow position-relative" style={{
             minHeight: "570px"
         }}>
             <div className="mb-3">
@@ -21,7 +21,7 @@ const PortfolioItem = props => (
 )
 
 const FrontPagePortfolio = () => (
-    <section id="portefolje" className="container py-5 mb-5 text-center">
+    <section id="portefolje" className="container p-3 p-md-5 mb-5 text-center">
       <div className="mb-5">
         <h2 className="text-uppercase fw-bold">
           <span className="text-primary">Min</span> portefølje
