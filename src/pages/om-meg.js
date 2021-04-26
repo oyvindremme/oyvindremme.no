@@ -17,7 +17,7 @@ const OmMeg = () => (
         <PageHeader
             headingText="Om meg"
         />
-        <section className="container p-5">
+        <section className="container p-3 p-md-5 my-5">
             <div className="row">
                 <div className="col-lg-5">
                     <StaticImage
@@ -42,7 +42,7 @@ const OmMeg = () => (
                 </div>
             </div>
         </section>
-        <section className="container p-5 pb-7">
+        <section className="container p-3 p-md-5 my-5">
             <div className="mb-7 text-center">
                 <h2 className="text-uppercase fw-bold">
                     <span className="text-primary">Kvalitet</span> over kvantitet

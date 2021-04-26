@@ -16,8 +16,8 @@ const FrontPageHeader = () => (
                 <p className="lead fw-normal mb-4">
                     Jeg bygger 100% optimaliserte og skreddersydde hjemmesider som vil hjelpe deg med å skaffe flere kunder
                 </p>
-                <Link to="/kontakt">
-                    <button type="button" class="btn btn-lg text-uppercase btn-light">Ta kontakt</button>
+                <Link to="/kontakt" className="btn btn-lg btn-light text-uppercase fw-bold">
+                    Ta kontakt
                 </Link>
             </div>
         </section>
