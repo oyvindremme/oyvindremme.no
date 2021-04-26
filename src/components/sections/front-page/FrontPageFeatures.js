@@ -43,7 +43,7 @@ const FrontPageFeatures = () => (
           <span className="text-primary">Hva</span> jeg gjør
         </h2>
         <p>
-          Jeg spesialiserer meg på å bygge og optimalisere hjemmesider for små bedrifter. Hver del av hjemmesiden er skreddersydd og håndtert av meg, for å sikre god ytelse og gode rangeringer på Google, noe som vil hjelpe deg med å potensielt skaffe deg flere kunder. <Link to="/tjenester"><a>LÆR MER</a></Link>
+          Jeg spesialiserer meg på å bygge og optimalisere hjemmesider for små bedrifter. Hver del av hjemmesiden er skreddersydd og håndtert av meg, for å sikre god ytelse og gode rangeringer på Google, noe som vil hjelpe deg med å potensielt skaffe deg flere kunder. <Link to="/tjenester">LÆR MER</Link>
         </p>
       </div>
       <div className="row">

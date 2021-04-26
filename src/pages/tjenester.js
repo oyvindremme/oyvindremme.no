@@ -47,6 +47,7 @@ const Tjenester = () => (
                     <StaticImage
                         src="../images/illustrations/webdesign.png"
                         placeholder="blurred"
+                        alt="Illustrasjon som viser en kunstnerisk tilnærming til webdesign"
                     />
                 </div>
                 <div className="col-md-6">
@@ -89,6 +90,7 @@ const Tjenester = () => (
                     <StaticImage
                         src="../images/illustrations/seo.png"
                         placeholder="blurred"
+                        alt="Illustrasjon som viser en kunstnerisk tilnærming søkemotoroptimalisering"
                     />
                 </div>
             </div>
@@ -99,6 +101,7 @@ const Tjenester = () => (
                     <StaticImage
                         src="../images/illustrations/logo.png"
                         placeholder="blurred"
+                        alt="Illustrasjon som viser en kunstnerisk tilnærming til design av logo"
                     />
                 </div>
                 <div className="col-md-6">

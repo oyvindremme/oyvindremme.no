@@ -48,6 +48,7 @@ const Kontakt = () => (
                     <StaticImage
                         src="../images/illustrations/contact.png"
                         placeholder="blurred"
+                        alt="Illustrasjon med bilde av mennesker og ikoner som gir bilde på forskjellige måter å ta kontakt på"
                     />
                     <p>
                         <strong>E-post:</strong> <a href="mailto:hei@oyvindremme.no">hei@oyvindremme.no</a>

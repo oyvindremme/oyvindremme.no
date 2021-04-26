@@ -11,6 +11,7 @@ const Layout = props => (
                         src="../../../images/logo/logo-full_colors-horizontal.png"
                         placeholder="blurred"
                         width="180"
+                        alt="Logoen til Webdesigner Øyvind Remme"
                     />
                 </Link>
                 <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigationBar" aria-controls="navigationBar" aria-expanded="false" aria-label="Toggle navigation">

@@ -32,6 +32,7 @@ const FrontPagePortfolio = () => (
             image={(
                 <StaticImage
                     src="../../../images/plastfritthav.png"
+                    alt="Et bilde av Plastfritt Havs hjemmeside"
                 />
             )}
             name="Plastfritt Hav"
@@ -42,6 +43,7 @@ const FrontPagePortfolio = () => (
             image={(
                 <StaticImage
                     src="../../../images/cestan.png"
+                    alt="Et bilde av Cestans hjemmeside"
                 />
             )}
             name="Cestan AS"
@@ -52,6 +54,7 @@ const FrontPagePortfolio = () => (
             image={(
                 <StaticImage
                     src="../../../images/jentegeren.png"
+                    alt="Et bilde av Jentegærns hjemmeside"
                 />
             )}
             name="Jentegærn"

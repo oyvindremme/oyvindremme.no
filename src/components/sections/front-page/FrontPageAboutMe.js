@@ -10,7 +10,7 @@ const FrontPageAboutMe = () => (
           <span className="text-primary">Hvem</span> jeg er
         </h2>
         <p>
-          Jeg heter Øyvind Remme, og jeg bygger hjemmesider for små bedrifter. Jeg startet denne bedriften fordi jeg hadde et ønske om å være mer tilgjengelig for familien min. Jeg har utdannet meg som frontend-utvikler, og oversetter dette godt til hva jeg gjør her. <Link to="/om-meg"><a>LÆR MER</a></Link>
+          Jeg heter Øyvind Remme, og jeg bygger hjemmesider for små bedrifter. Jeg startet denne bedriften fordi jeg hadde et ønske om å være mer tilgjengelig for familien min. Jeg har utdannet meg som frontend-utvikler, og oversetter dette godt til hva jeg gjør her. <Link to="/om-meg">LÆR MER</Link>
         </p>
       </div>
       <div className="row">

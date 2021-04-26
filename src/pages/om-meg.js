@@ -23,6 +23,7 @@ const OmMeg = () => (
                     <StaticImage
                         src="../images/oyvind.jpg"
                         placeholder="blurred"
+                        alt="Et bilde av Øyvind Remme"
                     />
                 </div>
                 <div className="col-lg-7">
