@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import aboutMeImage from "../../../images/oyvind.jpg"
+
 const FrontPageAboutMe = () => (
     <section className="container p-3 p-md-5 mb-5 text-center">
       <div className="mb-7">
@@ -13,7 +15,7 @@ const FrontPageAboutMe = () => (
       </div>
       <div className="row">
         <div className="col-md-3 mx-auto">
-          <img className="img-fluid rounded-circle mb-3" src="https://www.oyvindremme.no/wp-content/uploads/2021/01/profile-e1611222972953.jpg" />
+          <img className="img-fluid rounded-circle mb-3" src={`${aboutMeImage}`} />
           <p className="fw-bold mb-0">
             Øyvind Remme
           </p>
