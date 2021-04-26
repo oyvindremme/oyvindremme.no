@@ -3,7 +3,7 @@ import pageHeaderImage from "../../../images/page-header.jpg"
 
 const PageHeader = props => (
     <section className="container-fluid bg-primary text-light p-5 pt-7 pb-7" style={{
-        backgroundImage: `linear-gradient(rgba(236,106,17,.9),rgba(236,106,17,.9)),url(${pageHeaderImage})`,
+        "background-image": `linear-gradient(rgb(236, 106, 17, .9), rgba(209, 60, 60, .9)), url(${pageHeaderImage})`,
         backgroundSize: "auto, cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "0 50%"
