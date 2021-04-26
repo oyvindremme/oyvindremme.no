@@ -3,7 +3,11 @@ import * as React from "react"
 import { Helmet } from "react-helmet"
 
 const SEO = props => (
-    <Helmet>
+    <Helmet
+        htmlAttributes={{
+            lang: 'no',
+        }}
+    >
         <title>{props.siteTitle} | Webdesigner Øyvind Remme</title>
         <meta name="title" content={`${props.siteTitle} | Webdesigner Øyvind Remme`} />
         <meta name="description" content={props.siteDescription} />
