@@ -3,8 +3,6 @@ import { Link } from "gatsby"
 
 import { StaticImage } from "gatsby-plugin-image"
 
-import aboutMeImage from "../../../images/oyvind.jpg"
-
 const FrontPageAboutMe = () => (
     <section className="container p-3 p-md-5 mb-5 text-center">
       <div className="mb-7">
@@ -19,7 +17,7 @@ const FrontPageAboutMe = () => (
         <div className="col-md-3 mx-auto">
           <StaticImage
             className="img-fluid rounded-circle mb-3"
-            src={aboutMeImage}
+            src="../../../images/oyvind.jpg"
             alt="Et bilde av Øyvind"
           />
           <p className="fw-bold mb-0">

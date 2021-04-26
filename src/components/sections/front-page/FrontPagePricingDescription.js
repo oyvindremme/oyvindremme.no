@@ -4,8 +4,6 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import IconBox from "../misc/IconBox"
 
-import pricingDescriptionImage from "../../../images/illustrations/investing.png"
-
 const justifications = [
     {
         name: "Hosting",
@@ -39,7 +37,7 @@ const FrontPagePricingDescription = () => (
         <div className="col-md-5">
         <StaticImage
             className="img-fluid"
-            src={pricingDescriptionImage}
+            src="../../../images/illustrations/investing.png"
             alt="Illustrasjon som forklarer investering i hjemmesider"
           />
         </div>
