@@ -1,7 +1,8 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import IconBox from "../misc/IconBox"
+
+import pricingDescriptionImage from "../../../images/illustrations/investing.png"
 
 const justifications = [
     {
@@ -34,7 +35,7 @@ const FrontPagePricingDescription = () => (
     <section className="container p-3 p-md-5 mb-5 text-center">
       <div className="row">
         <div className="col-md-5">
-          <img className="img-fluid" src="https://www.oyvindremme.no/wp-content/uploads/2021/01/undraw_investing_7u74.png" />
+          <img className="img-fluid" src={`${pricingDescriptionImage}`} />
         </div>
         <div className="col-md-7 text-start">
           <div className="mb-5">
