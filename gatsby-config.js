@@ -1,4 +1,7 @@
 module.exports = {
+    siteMetadata: {
+        siteUrl: `https://www.oyvindremme.no`,
+    },
     plugins: [
         `gatsby-plugin-sass`,
         {
