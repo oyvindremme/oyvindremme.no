@@ -3,6 +3,7 @@ module.exports = {
         siteUrl: `https://www.oyvindremme.no`,
     },
     plugins: [
+        `gatsby-plugin-preact`,
         `gatsby-plugin-sass`,
         {
             resolve: `gatsby-plugin-purgecss`,
