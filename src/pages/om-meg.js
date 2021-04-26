@@ -80,7 +80,7 @@ const OmMeg = () => (
                 </div>
             </div>
             <div className="text-center">
-                <Link to="tjenester" className="text-center">
+                <Link to="/tjenester" className="text-center">
                     Les mer om tjenestene jeg tilbyr
                 </Link>
             </div>

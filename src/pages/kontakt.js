@@ -50,10 +50,10 @@ const Kontakt = () => (
                         placeholder="blurred"
                     />
                     <p>
-                        <strong>E-post:</strong> hei@oyvindremme.no
+                        <strong>E-post:</strong> <a href="mailto:hei@oyvindremme.no">hei@oyvindremme.no</a>
                     </p>
                     <p>
-                        <strong>Telefon:</strong> 484 50 240
+                        <strong>Telefon:</strong> <a href="tel:48450240">484 50 240</a>
                     </p>
                 </div>
             </div>
