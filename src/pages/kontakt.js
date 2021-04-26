@@ -3,9 +3,14 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/sections/misc/Layout"
 import PageHeader from "../components/sections/misc/PageHeader"
+import SEO from "../components/SEO"
 
 const Kontakt = () => (
     <Layout>
+        <SEO
+            siteTitle="Kontakt"
+            siteDescription="Kontakt meg for en uforpliktende samtale om hjemmesiden din."
+        />
         <PageHeader
             headingText="Kontakt"
         />
@@ -15,26 +20,26 @@ const Kontakt = () => (
                     <h2 className="fw-bold text-uppercase mb-4">
                         <span className="text-primary">Send</span> meg en melding
                     </h2>
-                    <form action="https://formsubmit.co/hei@oyvindremme.no" method="POST">
+                    <form action="https://formsubmit.co/3f8d4b08ef8f1ce9c1ad8bdfa09f2244" method="POST">
                         <div class="mb-3">
-                            <label for="company" class="form-label">Bedrift / firma</label>
-                            <input type="email" class="form-control" id="company" aria-describedby="emailHelp" />
+                            <label for="Bedrift" class="form-label">Bedrift / firma</label>
+                            <input type="text" class="form-control" id="Bedrift" name="Bedrift" required />
                         </div>
                         <div class="mb-3">
-                            <label for="contactperson" class="form-label">Kontaktperson</label>
-                            <input type="email" class="form-control" id="contactperson" aria-describedby="emailHelp" />
+                            <label for="Kontaktperson" class="form-label">Kontaktperson</label>
+                            <input type="text" class="form-control" id="Kontaktperson" name="kontaktperKontaktpersonsKontaktpersonon" required />
                         </div>
                         <div class="mb-3">
-                            <label for="phone" class="form-label">Telefonnummer</label>
-                            <input type="email" class="form-control" id="phone" aria-describedby="emailHelp" />
+                            <label for="telefonnummer" class="form-label">Telefonnummer</label>
+                            <input type="tel" class="form-control" id="telefonnummer" name="telefonnummer" required />
                         </div>
                         <div class="mb-3">
-                            <label for="emailaddress" class="form-label">Epostadresse</label>
-                            <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp" />
+                            <label for="Epostadresse" class="form-label">Epostadresse</label>
+                            <input type="email" class="form-control" id="Epostadresse" name="Epostadresse" required />
                         </div>
                         <div class="mb-3">
-                            <label for="message" class="form-label">Melding</label>
-                            <textarea class="form-control" id="message" rows="8"></textarea>
+                            <label for="Melding" class="form-label">Melding</label>
+                            <textarea class="form-control" id="Melding" name="Melding" required rows="8"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary text-light">Send</button>
                     </form>

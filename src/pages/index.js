@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/sections/misc/Layout"
+import SEO from "../components/SEO"
 
 // Sections
 import FrontPageHeader from '../components/sections/front-page/FrontPageHeader';
@@ -11,6 +12,10 @@ import Pricing from "../components/sections/misc/Pricing"
 
 const Home = () => (
   <Layout>
+    <SEO
+        siteTitle="Hjemmesider for små bedrifter"
+        siteDescription="Jeg bygger 100% optimaliserte og skreddersydde hjemmesider som vil hjelpe deg med å skaffe flere kunder."
+    />
     <FrontPageHeader />
     <FrontPageFeatures />
     <FrontPagePricingDescription />

@@ -6,6 +6,7 @@ import PageHeader from "../components/sections/misc/PageHeader"
 
 import Layout from "../components/sections/misc/Layout"
 import Pricing from "../components/sections/misc/Pricing"
+import SEO from "../components/SEO"
 import IconBox from "../components/sections/misc/IconBox"
 
 const perks = [
@@ -33,6 +34,10 @@ const perks = [
 
 const Tjenester = () => (
     <Layout>
+        <SEO
+            siteTitle="Tjenester"
+            siteDescription="En annerledes måte å bygge hjemmesider."
+        />
         <PageHeader
             headingText="Tjenester"
         />
@@ -58,7 +63,7 @@ const Tjenester = () => (
         <section className="container p-3 p-md-5 my-5">
             <div className="row">
                 <div className="col-md-6 order-1 order-md-0">
-                    <h2 className="fw-bold">Søkemotoroptimalisering for 2021</h2>
+                    <h2 className="fw-bold">SEO for 2021</h2>
                     <p>
                         Om noen forteller deg at de kan få deg på forsiden av Google innen tre måneder - LØP! Med mindre hjemmesiden din har vært vist fram på populære tidsskrifter, kan det ta flere år før du rangerer på toppen av søkeresultatene.
                     </p>

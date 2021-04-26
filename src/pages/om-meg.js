@@ -6,9 +6,14 @@ import PageHeader from "../components/sections/misc/PageHeader"
 
 import Layout from "../components/sections/misc/Layout"
 import Pricing from "../components/sections/misc/Pricing"
+import SEO from "../components/SEO"
 
 const OmMeg = () => (
     <Layout>
+        <SEO
+            siteTitle="Om meg"
+            siteDescription="Jeg heter Øyvind Remme, og er selvstendig webutvikler."
+        />
         <PageHeader
             headingText="Om meg"
         />
@@ -31,7 +36,7 @@ const OmMeg = () => (
                         Jeg heter Øyvind Remme, og er selvstendig webutvikler. Jeg ble interessert i å lage hjemmesider etter å ha bygget en for et familiemedlem, og hadde et sterkt ønske om å kunne være tilgjengelig hjemme, og se barnet mitt vokse, mens jeg kunne jobbe i umiddelbar nærhet. Jeg har utdanning i frontend-utvikling, og tilbyr mine tjenester for små bedrifter som er ute etter å øke inntektene sine.
                     </p>
                     <p>
-                        Det jeg fant ut etterhvert var at mange små bedrifter ikke hadde råd til å betale mange tusener av kroner for en hjemmeside. Og de som hadde råd ble som oftest lurt, og endte opp med et forderdelig resultat. De var frustrerte - enten hadde de ikke råd til en hjemmeside, og om de gjorde det, visste de ikke hvem de kunne stole på for å lage noe de var fornøyde med. Med det endre jeg forretningsmodellen min for å tilpasse behovet. Det var sånn jeg kom på at jeg skulle tilby 0 kroner i etablering og 1500 kroner per måned. Det er rett og slett mer håndterbart for små bedrifter.
+                        Det jeg fant ut etterhvert var at mange små bedrifter ikke hadde råd til å betale mange titusener av kroner for en hjemmeside. Og de som hadde råd ble som oftest lurt, og endte opp med et forderdelig resultat. De var frustrerte - enten hadde de ikke råd til en hjemmeside, og om de gjorde det, visste de ikke hvem de kunne stole på for å lage noe de var fornøyde med. Med det endre jeg forretningsmodellen min for å tilpasse behovet. Det var sånn jeg kom på at jeg skulle tilby 0 kroner i etablering og 1500 kroner per måned. Det er rett og slett mer håndterbart for små bedrifter.
                     </p>
                 </div>
             </div>

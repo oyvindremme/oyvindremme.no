@@ -17,7 +17,7 @@ const justifications = [
         description: "Ring når som helst, hvor som helst. Ingen telefonsystemer eller automatiske svar."
     },
     {
-        name: "Design og utvikilng",
+        name: "Design og utviklng",
         description: "Inkluderer over 40 timer med design, utvikling og testing."
     },
     {
