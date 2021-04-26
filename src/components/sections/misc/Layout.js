@@ -6,7 +6,7 @@ const Layout = props => (
     <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light shadow">
             <div className="container">
-                <Link className="navbar-brand" to="/">
+                <Link className="navbar-brand" to="/" aria-label="Link til hjem" >
                     <StaticImage
                         src="../../../images/logo/logo-full_colors-horizontal.png"
                         placeholder="blurred"
@@ -19,9 +19,6 @@ const Layout = props => (
                 </button>
                 <div className="collapse navbar-collapse mr-auto" id="navigationBar">
                     <ul className="navbar-nav ms-auto fw-bold">
-                        <li className="nav-item p-3">
-                            <Link className="nav-link text-dark" to="/">Hjem</Link>
-                        </li>
                         <li className="nav-item p-3">
                             <Link className="nav-link text-dark" to="/om-meg">Om meg</Link>
                         </li>

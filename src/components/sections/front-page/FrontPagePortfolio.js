@@ -13,7 +13,7 @@ const PortfolioItem = props => (
             </div>
             <h3>{props.name}</h3>
             <p>{props.description}</p>
-            <a href={props.url} target="_blank" rel="nofollow" className="btn btn-primary text-light fw-bold position-absolute mt-5" style={{
+            <a href={props.url} target="_blank" rel="noopener" className="btn btn-primary text-light fw-bold position-absolute mt-5" style={{
                 bottom: "3rem"
             }}>Se hjemmesiden</a>
         </div>
