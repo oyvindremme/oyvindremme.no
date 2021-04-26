@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import { StaticImage } from "gatsby-plugin-image"
+
 import aboutMeImage from "../../../images/oyvind.jpg"
 
 const FrontPageAboutMe = () => (
@@ -15,7 +17,11 @@ const FrontPageAboutMe = () => (
       </div>
       <div className="row">
         <div className="col-md-3 mx-auto">
-          <img className="img-fluid rounded-circle mb-3" src={`${aboutMeImage}`} />
+          <StaticImage
+            className="img-fluid rounded-circle mb-3"
+            src={aboutMeImage}
+            alt="Et bilde av Øyvind"
+          />
           <p className="fw-bold mb-0">
             Øyvind Remme
           </p>

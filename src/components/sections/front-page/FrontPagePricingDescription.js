@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import { StaticImage } from "gatsby-plugin-image"
+
 import IconBox from "../misc/IconBox"
 
 import pricingDescriptionImage from "../../../images/illustrations/investing.png"
@@ -35,7 +37,11 @@ const FrontPagePricingDescription = () => (
     <section className="container p-3 p-md-5 mb-5 text-center">
       <div className="row">
         <div className="col-md-5">
-          <img className="img-fluid" src={`${pricingDescriptionImage}`} />
+        <StaticImage
+            className="img-fluid"
+            src={pricingDescriptionImage}
+            alt="Illustrasjon som forklarer investering i hjemmesider"
+          />
         </div>
         <div className="col-md-7 text-start">
           <div className="mb-5">
