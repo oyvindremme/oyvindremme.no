@@ -27,11 +27,11 @@ const Kontakt = () => (
                         </div>
                         <div class="mb-3">
                             <label for="Kontaktperson" class="form-label">Kontaktperson</label>
-                            <input type="text" class="form-control" id="Kontaktperson" name="kontaktperKontaktpersonsKontaktpersonon" required />
+                            <input type="text" class="form-control" id="Kontaktperson" name="Kontaktperson" required />
                         </div>
                         <div class="mb-3">
-                            <label for="telefonnummer" class="form-label">Telefonnummer</label>
-                            <input type="tel" class="form-control" id="telefonnummer" name="telefonnummer" required />
+                            <label for="Telefonnummer" class="form-label">Telefonnummer</label>
+                            <input type="tel" class="form-control" id="Telefonnummer" name="Telefonnummer" required />
                         </div>
                         <div class="mb-3">
                             <label for="Epostadresse" class="form-label">Epostadresse</label>
