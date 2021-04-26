@@ -6,7 +6,7 @@ import headerImage from "../../../images/page-header.jpg"
 const FrontPageHeader = () => (
     <>
         <section id="front-page-header" className="align-items-center container-fluid d-flex p-3 py-7 text-white" style={{
-            "background-image": `linear-gradient(rgb(236, 106, 17, .9), rgba(209, 60, 60, .9)), url(${headerImage})`,
+            "background-image": `linear-gradient(rgb(236, 106, 17, 1), rgba(209, 60, 60, 1`,
             backgroundSize: "auto, cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "0 50%"
