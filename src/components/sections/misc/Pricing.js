@@ -12,7 +12,7 @@ const Pricing = () => (
             <div className="p-4">
               <p className="text-secondary fs-4 mb-1 text-uppercase">Startpris</p>
               <h3 className="fs-1 text-primary fw-bold mb-4">
-                3000,- <span className="fs-3 fw-normal">/mnd</span>
+                3000,-* <span className="fs-3 fw-normal">/mnd</span>
               </h3>
               <ul className="list-group list-group-flush text-start mb-4">
                 <li className="text-center align-items-center justify-content-center d-flex list-group-item">
@@ -39,7 +39,7 @@ const Pricing = () => (
             <div className="p-4">
               <p className="text-secondary fs-4 mb-1 text-uppercase">5 sider</p>
               <h3 className="fs-1 text-primary fw-bold mb-4">
-                1500,- <span className="fs-3 fw-normal">/mnd</span>
+                1500,-* <span className="fs-3 fw-normal">/mnd</span>
               </h3>
               <ul className="list-group list-group-flush text-start mb-4">
                 <li className="text-center align-items-center justify-content-center d-flex list-group-item">

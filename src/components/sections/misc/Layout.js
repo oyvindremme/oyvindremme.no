@@ -37,7 +37,7 @@ const Layout = props => (
         </nav>
         {props.children}
         <section className="container-fluid p-5 bg-dark text-light text-center">
-            <p className="m-0">Alle priser er inkl. MVA</p>
+            <p className="m-0">Alle priser er eksklusiv MVA</p>
         </section>
     </>
 )
